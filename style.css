@@ -1,0 +1,91 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ddd;
+}
+h1{background-color: rgb(14, 61, 102);
+font-weight: bold;
+}
+.container{
+    max-width: 1500px;
+    position:relative;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+.destaque{
+    font-weight: bold;
+}
+.cabecalho{
+    text-align: center;
+    color: rgba(129, 169, 221, 0.884);
+    height: 150px;
+    background-color: #f2f2f2;
+    border-radius: 1%;
+}
+.titulo-principal{
+    font-size: 50px;
+}
+.paragrafo-cabecalho{
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+/*corpo do site*/
+/*imagens*/
+.img-destaque{
+    text-align:center;
+    margin-top: 50px;
+}
+.imagem1{
+    height: 200px;
+    width: 200px;
+}
+.imagem2{
+    border-radius: 2.5%;
+}
+.imagem3{
+    border-radius: 2.5%;
+    height: 500px;
+    width: 1150px;
+
+}
+/*corpo do site*/
+.biografia-conteiner{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top:  3px dashed #ddd;
+    border-bottom: 3px dashed #ddd;
+}
+.biografia-conteiner h2{
+text-align: center;
+}
+.biografia-conteiner link{
+    text-align: center;
+}
+.biografia-conteiner p {
+    text-align: center;
+}
+.frase-container{
+    background-color: #f2f2f2;
+    padding: 30px;  
+    text-align: center; 
+}
+.frase-container blockquote{
+    font-weight: 600px;
+    font-size: 20px; 
+}
+.curisosidades-container{
+    padding: 25px 0;   
+    margin:25px 0; 
+    border-top: 3px dashed #ddd;
+    border-bottom: 3px dashed #ddd;
+}
+.curisosidades-container li{
+    height: 35px;
+    font-style: italic;
+}
+.curisosidades-container h2{
+    text-align: center;
+    font-size: 40px;
+}
